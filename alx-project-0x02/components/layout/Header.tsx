@@ -1,9 +1,11 @@
+import Link from "next/link";
 
 const Header: React.FC = () => {
     return (
-        <h1>
-            Header here.
-        </h1>
+        <nav>
+            <Link href="/home">Home</Link>
+            <Link href="/about">About</Link>
+        </nav>
     )
 }
 
