@@ -10,6 +10,7 @@ const Header: React.FC = () => {
             <div className="flex gap-4 items-center font-semibold text-blue-600">
                 <Link href="/home">Home</Link>
                 <Link href="/posts">Posts</Link>
+                <Link href="/users">Users</Link>
                 <Link href="/about">About</Link>
             </div>
         </nav>
