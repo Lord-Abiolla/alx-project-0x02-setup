@@ -42,3 +42,13 @@
 - Implement a form inside the modal to accept user input for title and content.
 - Pass the data back to the parent component and display the newly added content on the /home page.
 - Add a button to open the modal.
+
+## 5. Create and use a Button component
+
+**Objective:** Create a reusable Button component that accepts different sizes and shapes.
+
+**Instructions:**
+
+- Define a ButtonProps interface in `interfaces/index.ts`.
+- Create a Button component in `components/common/Button.tsx` that accepts size (`small`, `medium`, `large`) and shape (`rounded-sm`, `rounded-md`, `rounded-full`) as props.
+- Use the Button component on the `/about` page and display three buttons with different sizes and shapes.
