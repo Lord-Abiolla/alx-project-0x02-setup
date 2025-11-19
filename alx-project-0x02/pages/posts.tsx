@@ -8,7 +8,7 @@ const Posts: React.FC = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const fetchPosts = async () => {
+        const getStaticProps = async () => {
             try {
                 const response = await fetch("https://jsonplaceholder.typicode.com/posts");
                 const data = await response.json();
@@ -28,7 +28,7 @@ const Posts: React.FC = () => {
             }
         };
         
-        fetchPosts();
+        getStaticProps();
 
     }, []);
 
