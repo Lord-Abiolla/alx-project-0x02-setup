@@ -52,3 +52,24 @@
 - Define a ButtonProps interface in `interfaces/index.ts`.
 - Create a Button component in `components/common/Button.tsx` that accepts size (`small`, `medium`, `large`) and shape (`rounded-sm`, `rounded-md`, `rounded-full`) as props.
 - Use the Button component on the `/about` page and display three buttons with different sizes and shapes.
+
+## 6. Implement Navigation and Layout
+
+**Objective:** Implement navigation between pages using a reusable Header component.
+
+**Instructions:**
+
+- Create a `Header.tsx` component in `components/layout/Header.tsx`.
+- Add links to `/home`, `/about`, and `/posts` pages in the header.
+- Import and use the Header component in `pages/home.tsx`, `pages/about.tsx`, and `pages/posts.tsx`.
+- Ensure the navigation works across all pages.
+
+## 7. Implement a PostCard Component
+
+**Objective:** Display a list of posts using a PostCard component.
+
+**Instructions:**
+
+- Define a PostProps interface in interfaces/index.ts.
+- Create a PostCard.tsx component in `components/common/PostCard.tsx` that accepts `title`, `content`, and `userId` as props.
+- Fetch data from an API (e.g., `JSONPlaceholder`) and display a list of posts using the PostCard component in `pages/posts.tsx`.
